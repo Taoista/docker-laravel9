@@ -57,6 +57,10 @@ cp .env.example .env
 ```bash
 php artisan key:generate
 ```
+si estas trabajando con xampp y/o largon, crea un usuario con los privilegios completos y en la configuracion de mysql agrega
+```bash
+bind-address=0.0.0.0
+```
 
 
 
